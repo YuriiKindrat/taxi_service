@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "django-insecure-8ovil3xu6=eaoq
 # SECURITY WARNING: don"t run with debug turned on in production!
 DEBUG = bool(os.environ.get("DJANGO_DEBUG", True))
 
-ALLOWED_HOSTS = ["127.0.0.1", ]
+ALLOWED_HOSTS = ["127.0.0.1", "taxi-service-v1.herokuapp.com"]
 
 INTERNAL_IPS = [
     "127.0.0.1",
@@ -132,8 +132,6 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 STATICFILES_DIRS = (BASE_DIR / "static",)
-
-
 
 STATIC_ROOT = "staticfiles/"
 
