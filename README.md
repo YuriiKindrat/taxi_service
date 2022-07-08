@@ -28,3 +28,7 @@ python manage.py runserver
 ## Demo
 
 ![Website Interface](demo.PNG)
+
+### User for tests:
+* username: TestUser
+* password: user12345
