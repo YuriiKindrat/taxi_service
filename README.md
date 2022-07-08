@@ -4,7 +4,7 @@ Django project that demonstrates the work of a taxi service
 
 # Check it out!
 
-[Library project deployed on Heroku](PASTE_LINK_HERE)
+[Library project deployed on Heroku](https://taxi-service-v1.herokuapp.com/)
 
 ## Instalation
 
