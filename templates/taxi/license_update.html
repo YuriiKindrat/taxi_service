@@ -8,7 +8,8 @@
         {% csrf_token %}
         {{ form.as_p }}
 
-        <input type="submit" value="Except">
+        <input class="btn btn-success" type="submit" value="Except">
+        <a class="btn btn-warning" href="{% url 'taxi:driver-detail' pk=object.pk %}">Cancel</a>
 
     </form>
 {% endblock %}
